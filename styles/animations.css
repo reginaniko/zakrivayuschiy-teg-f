@@ -15,105 +15,102 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-
 @keyframes shifting-arrow {
-    0% {
-      left: 4px;
-    }
+  0% {
+    left: 4px;
+  }
 
-
-    100% {
-      left: 0px;
-    }
+  100% {
+    left: 0px;
+  }
 }
 
 .core {
-    opacity: 0;
-    transition: opacity 0.3s;
-    fill: var(--accent-color);
+  opacity: 0;
+  transition: opacity 0.3s;
+  fill: var(--accent-color);
 }
 
 .contour {
-    fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .main-body {
-    opacity: 0;
-    transition: opacity 0.3s;
-    fill: var(--accent-color);
+  opacity: 0;
+  transition: opacity 0.3s;
+  fill: var(--accent-color);
 }
 
 .sparks {
-    opacity: 0;
-    transition: opacity 0.3s;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .like-icon:hover .main-body {
-    opacity: 1;
-    transition: opacity 0.3s;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .like-icon:hover .core {
-    opacity: 1;
-    transition: opacity 0.3s;
-    transition-delay: 0.1s;
+  opacity: 1;
+  transition: opacity 0.3s;
+  transition-delay: 0.1s;
 }
 
 .card__icon-button:active .main-body {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    fill: var(--red-fill-color);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  fill: var(--red-fill-color);
 }
 
 .card__icon-button:active .core {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    transition-delay: 0.05s;
-    fill: var(--red-fill-color);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  transition-delay: 0.05s;
+  fill: var(--red-fill-color);
 }
 
 .like-icon.is-liked .main-body {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    fill: var(--red-fill-color);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  fill: var(--red-fill-color);
 }
 
 .like-icon.is-liked .core {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    transition-delay: 0.05s;
-    fill: var(--red-fill-color);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  transition-delay: 0.05s;
+  fill: var(--red-fill-color);
 }
 
 .like-icon.is-liked .contour {
-    transition: fill 0.3s;
-    transition-delay: 0.06s;
-    fill: var(--red-fill-color);
+  transition: fill 0.3s;
+  transition-delay: 0.06s;
+  fill: var(--red-fill-color);
 }
 
-
 .like-icon.is-liked {
-    animation: heart-scaling 0.3s ease-in 0.1s;
+  animation: heart-scaling 0.3s ease-in 0.1s;
 }
 
 @keyframes heart-scaling {
-    from {
-      scale: 1;
-    }
-    to {
-      scale: 1.5;
-    }
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.5;
+  }
 }
 
 .like-icon.is-liked .sparks {
-    animation: opacity-change 0.3s ease-in 0.3s;
+  animation: opacity-change 0.3s ease-in 0.3s;
 }
 
 @keyframes opacity-change {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 1.5;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1.5;
+  }
 }
