@@ -18,6 +18,7 @@
     --grad-line-color: #d3d3d3;
     --grad-start-color: #e7e7e7;
     --grad-end-color: #1a1a1a;
+    --button-text-color: #FFF;
     --background-image: repeating-linear-gradient(
         to left,
         #d3d3d3 0 2px,
@@ -40,6 +41,7 @@
   --grad-line-color: #d3d3d3;
   --grad-start-color: #e7e7e7;
   --grad-end-color: #1a1a1a;
+  --button-text-color: #FFF;
   --background-image: repeating-linear-gradient(
       to left,
       #d3d3d3 0 2px,
@@ -58,6 +60,7 @@
     --grad-line-color: #000;
     --grad-start-color: #007f0c;
     --grad-end-color: #004306;
+    --button-text-color: #00cc14;
     --background-image: repeating-linear-gradient(
         to left,
         #000000 0 2px,
@@ -76,6 +79,7 @@
   --grad-line-color: #000;
   --grad-start-color: #007f0c;
   --grad-end-color: #004306;
+  --button-text-color: #00cc14;
   --background-image: repeating-linear-gradient(
       to left,
       #000000 0 2px,

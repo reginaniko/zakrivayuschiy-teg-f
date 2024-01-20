@@ -12,6 +12,7 @@
     --grad-line-color: #d3d3d3;
     --grad-start-color:  #e7e7e7;
     --grad-end-color: #1a1a1a;
+    --button-text-color: #FFF;
     --background-image:
         repeating-linear-gradient(to left, #d3d3d3 0 2px, #d3d3d300 2px 4px),
         repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px),
